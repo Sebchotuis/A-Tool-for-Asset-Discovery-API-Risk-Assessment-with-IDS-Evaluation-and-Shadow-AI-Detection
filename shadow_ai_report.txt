@@ -1,0 +1,32 @@
+Shadow AI Detection Report
+==========================
+Risk Level: HIGH
+Risk Score: 1873
+
+Top Indicators:
+- chatgpt: 519
+- gpt: 519
+- openai: 142
+- llm: 24
+- gemini: 4
+
+Top Source IPs:
+- 192.168.2.3: 666 events
+- 192.168.2.4: 14 events
+- 172.64.155.209: 5 events
+
+Evidence:
+- run_baseline/eve.json: matched chatgpt, gpt (src_ip=192.168.2.3)
+- run_baseline/eve.json: matched openai (src_ip=192.168.2.3)
+- run_baseline/eve.json: matched chatgpt, gpt (src_ip=104.18.32.47)
+- run_baseline/eve.json: matched llm (src_ip=192.168.2.4)
+- run_baseline/eve.json: matched llm (src_ip=192.168.2.3)
+- run_baseline/eve.json: matched gemini (src_ip=192.168.2.4)
+- run_baseline/eve.json: matched gemini (src_ip=192.168.2.3)
+- run_baseline/eve.json: matched chatgpt, gpt (src_ip=172.64.155.209)
+
+Recommendations:
+- Investigate outbound AI-related traffic immediately.
+- Review firewall, proxy and DNS logs for unapproved AI service access.
+- Validate whether AI tool usage is authorised under organisational policy.
+- Restrict or block unapproved AI endpoints if sensitive data is involved.

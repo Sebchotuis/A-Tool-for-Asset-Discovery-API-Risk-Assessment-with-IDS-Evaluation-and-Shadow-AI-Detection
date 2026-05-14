@@ -1,0 +1,44 @@
+
+========================================
+IDS Security Monitoring Report
+========================================
+
+Experiment: IDS Traffic Comparison
+
+Baseline Alerts: 21563
+Attack Alerts: 21688
+Alert Difference: 125
+Percentage Change: 0.58%
+
+Top Alert Signature:
+SURICATA STREAM ESTABLISHED packet out of window (17496)
+
+Top Source IP:
+91.189.92.21 (14188)
+
+Top Alert Category:
+Generic Protocol Command Decode (20753)
+
+========================================
+Risk Assessment
+========================================
+Risk Score: 8
+Risk Level: MEDIUM
+
+Risk Rationale:
+- Small increase from baseline alert volume
+- Very high alert concentration from a single source IP
+- Abnormal stream/protocol behaviour detected
+- Protocol anomaly category detected
+
+========================================
+Recommended Countermeasures
+========================================
+[MEDIUM] Moderate deviation from baseline detected – review alerts and monitor closely
+[HIGH] Block or rate-limit IP 91.189.92.21 (14188 alerts)
+[MEDIUM] Investigate abnormal TCP/protocol behaviour and tune IDS rules
+
+========================================
+Conclusion
+========================================
+The comparison indicates a medium-risk condition. Alert activity rose by 0.58% relative to baseline, and further review is recommended to determine whether the observed behaviour represents an emerging attack pattern or benign variation.

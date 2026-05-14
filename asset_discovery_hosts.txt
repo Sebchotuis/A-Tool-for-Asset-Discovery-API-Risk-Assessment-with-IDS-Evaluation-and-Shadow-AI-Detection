@@ -1,0 +1,8 @@
+# Nmap 7.80 scan initiated Fri Apr 24 00:19:56 2026 as: nmap -sn -oN asset_discovery_hosts.txt 192.168.2.0/24
+Nmap scan report for 192.168.2.1
+Host is up (0.0015s latency).
+Nmap scan report for 192.168.2.2
+Host is up (0.0065s latency).
+Nmap scan report for 192.168.2.3
+Host is up (0.00075s latency).
+# Nmap done at Fri Apr 24 00:20:00 2026 -- 256 IP addresses (3 hosts up) scanned in 3.11 seconds

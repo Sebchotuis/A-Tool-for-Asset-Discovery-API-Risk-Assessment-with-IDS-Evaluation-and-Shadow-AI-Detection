@@ -1,0 +1,126 @@
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: HEAD, GET, POST, OPTIONS 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: HEAD, GET, POST, OPTIONS 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: GET, POST, OPTIONS, HEAD 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: HEAD, GET, POST, OPTIONS 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: GET, POST, OPTIONS, HEAD 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: GET, POST, OPTIONS, HEAD 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: GET, POST, OPTIONS, HEAD 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: GET, POST, OPTIONS, HEAD 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: GET, POST, OPTIONS, HEAD 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: POST, OPTIONS, HEAD, GET 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: POST, OPTIONS, HEAD, GET 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: POST, OPTIONS, HEAD, GET 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: POST, OPTIONS, HEAD, GET 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: HEAD, GET, POST, OPTIONS 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: HEAD, GET, POST, OPTIONS 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: HEAD, GET, POST, OPTIONS 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: GET, POST, OPTIONS, HEAD 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
+- Nikto v2.1.5/2.1.5
++ Target Host: 192.168.2.3
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x64c52396e5240 
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: OPTIONS, HEAD, GET, POST 
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.

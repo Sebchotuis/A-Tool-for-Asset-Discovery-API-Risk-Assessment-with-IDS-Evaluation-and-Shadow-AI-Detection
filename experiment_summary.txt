@@ -1,0 +1,35 @@
+Experiment Summary
+==================
+
+Experiment 1: Baseline Traffic
+Dataset: run_2026-03-05_17-05-13
+Alerts Detected: 3908
+
+Description:
+Normal network activity without intentional attack traffic.
+
+Interpretation:
+Alerts mainly correspond to normal system behaviour such as
+package management traffic and protocol monitoring.
+
+-------------------------------------------------------
+
+Experiment 2: Nmap Scan Attack
+Dataset: run_2026-03-05_17-12-01
+Alerts Detected: 3910
+
+Description:
+A SYN scan was executed from a Kali Linux attacker using Nmap
+against the monitored Ubuntu host.
+
+Interpretation:
+The IDS detected anomalous packet stream behaviour generated
+during the scanning process.
+
+-------------------------------------------------------
+
+Conclusion:
+The IDS monitoring pipeline successfully captured and analysed
+both baseline and attack network traffic. The Python analysis
+framework processed Suricata alerts and produced visualisations
+allowing comparison between experimental scenarios.
